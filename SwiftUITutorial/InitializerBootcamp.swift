@@ -35,6 +35,7 @@ struct InitializerBootcamp: View {
             Text("\(self.count)")
                 .font(.largeTitle)
                 .underline()
+            
             Text(self.title)
                 .textCase(.uppercase)
         }
